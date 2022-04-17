@@ -1,9 +1,5 @@
 ## github-folder-sync
 
-[![NPM Downloads][npm-downloads-image]][npm-downloads-url]
-[![NPM Install Size][npm-install-size-image]][npm-install-size-url]
-[![NPM Version][npm-version-image]][npm-url]
-
 ### Description
 This library can be used to sync a folder from your device to GitHub.
 This is a fun project and I do not recommend to push large files.
