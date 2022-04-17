@@ -1,0 +1,9 @@
+{
+  "name": "github-folder-sync",
+  "version": "1.0.0",
+  "description": "This library can be used to sync a folder from your device to GitHub. This is a fun project and I do not recommend to push large files.",
+  "main": "index.js",
+  "keywords": ["github", "folder sync"],
+  "author": "Dato Marjanidze <datomarjanidze10@gmail.com>",
+  "license": "ISC"
+}
