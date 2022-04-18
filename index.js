@@ -35,6 +35,8 @@ class GitHubFolderSync {
   }
   
   async sync() /*: Promise<void> */ {
+    await this.git.pullFromGitHub()
+
     if (this.readyForSync) {
       await this.git.commitEverythingInSyncFolder()
       await this.git.pushToGitHub()
@@ -106,6 +108,13 @@ class Git {
       await this.run('add -A').then(async (r) => 
         await this.run(`commit -m "github-folder-sync: ${new Date().toISOString()}"`)
       )
+  }
+
+  async pullFromGitHub() /*: Promise<void> */ {
+    await this.run(`branch -M ${this.branchName}`)
+    await this.run(
+      `pull https://${this.gitHubUsername}:${this.gitHubToken}@github.com/${this.gitHubUsername}/${this.gitHubRepoName}.git`
+    ).catch(e => e)
   }
 
   async pushToGitHub() /*: Promise<void> */ {

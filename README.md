@@ -4,6 +4,16 @@
 This library can be used to sync a folder from your device to GitHub.
 This is a fun project and I do not recommend to push large files.
 
+![language](https://img.shields.io/badge/language-JavaScript-yellow.svg)
+![license](https://img.shields.io/badge/license-ISC-green)
+[![npm version](https://img.shields.io/npm/v/github-folder-sync.svg?style=flat)](https://npmjs.org/package/github-folder-sync)
+[![npm download](https://img.shields.io/npm/dt/github-folder-sync.svg)](https://npmjs.org/package/github-folder-sync)
+
+### Installation
+```console
+npm i github-folder-sync
+```
+
 ### Usage example
 ```javascript
 const { homedir } = require('os')
