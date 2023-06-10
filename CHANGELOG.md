@@ -1,3 +1,7 @@
+# 1.4.0 (2023-06-10)
+
+Remove the downloads tag from `README.md`.
+
 # 1.2.0 (2023-04-30)
 
 - Convert the source code to the TypeScript

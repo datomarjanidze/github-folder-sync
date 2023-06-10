@@ -1,9 +1,8 @@
-## GitHub Folder Sync v1.2.0 Documentation
+## GitHub Folder Sync v1.3.0 Documentation
 
 <p align="center">
   <a href="https://www.npmjs.com/package/github-folder-sync" target="_blank"><img src="https://img.shields.io/npm/v/github-folder-sync.svg" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/package/github-folder-sync" target="_blank"><img src="https://img.shields.io/npm/l/github-folder-sync.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/package/github-folder-sync" target="_blank"><img src="https://img.shields.io/npm/dm/github-folder-sync.svg" alt="NPM Downloads" /></a>
 </p>
 
 ### Table of contents
