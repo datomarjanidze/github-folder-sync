@@ -5,7 +5,7 @@
   "main": "dist/github-folder-sync.cjs.js",
   "module": "dist/github-folder-sync.esm.js",
   "types": "dist/github-folder-sync.d.ts",
-  "author": "Dato Marjanidze <datomarjanidze10@gmail.com>",
+  "author": "Dato Marjanidze",
   "license": "ISC",
   "homepage": "https://github.com/datomarjanidze/github-folder-sync#readme",
   "files": [
